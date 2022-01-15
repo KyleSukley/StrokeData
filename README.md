@@ -1,3 +1,9 @@
-This project is in development. Right now, there are many errors and random thoughts scattered throughout the file. 
+The project makes use of a dataset from Kaggle, with the goal of predicting binary stroke outcomes. There is an extensive EDA, and sufficient data preparation via sklearn pipelines and column transformers. 
 
-StrokeData is the primary file. stroke_whiteboard is just used for experimenting with different techniques. 
+I tested three models:
+1. Logistic Regression
+2. Linear SVM
+3. RandomForestClassifier
+
+I performed a Synthetic Minority Oversampling Technique (SMOTE), and used the “out-of-the-box” models. I did not tune the hyperparameters, which will be needed to improve results.
+
