@@ -4,7 +4,8 @@ I test three models:
 1. Logistic Regression
 2. Support Vector Classifier
 3. RandomForestClassifier
+4. K-Nearest Neighbor Classifier
 
 Each model's hyperparameters are tuned using a parameter grid and HalvingGridSearchCV.
 
-After assessing the quality of each model, I make use of SMOTE, and redo the previous steps. 
+After assessing the quality of each model, I make use of SMOTE, and redo the prior steps. 
